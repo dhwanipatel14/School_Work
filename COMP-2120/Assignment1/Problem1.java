@@ -10,7 +10,7 @@ public class Problem1 {
 		double v0 = 15;
 		double g = 9.8;
 		double t = 10;
-		double s = s0*v0 - (1/2)*g*t*t;
+		double s = s0*v0 - (float(1/2))*g*t*t;
 		System.out.printf("s = %.2f\n",s);
 		
 		/*
